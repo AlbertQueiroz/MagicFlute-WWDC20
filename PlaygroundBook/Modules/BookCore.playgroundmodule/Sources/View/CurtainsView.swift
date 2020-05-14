@@ -41,6 +41,7 @@ public class CurtainsView: UIView {
     }
     
     public func setConstraints() {
+        
         curtainRight.translatesAutoresizingMaskIntoConstraints = false
         curtainRight.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
         curtainRight.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
