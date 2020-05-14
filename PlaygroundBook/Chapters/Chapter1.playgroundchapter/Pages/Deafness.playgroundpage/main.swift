@@ -16,26 +16,24 @@ public func editFluteStyle(headColor: HeadStyle, bodyColor: BodyStyle, footColor
 
 
 /*:
-Mas será que uma criança surda, passaria por essa mesma experiência? Eu gostaria que sim.
+ 
+ # The problem
+Few people has the great oportunity to have an instrument in the childhood, but when we have, even less of us think about that children who don't even dream in play it, as the case of deaf children.
+ 
+ # Motivation
+ When I was younger, my mother a toy flute, and it provided me hours of fun and learning wich made me interest for music and this awesome instrument that motivated to buy a real one and learn even more.
+ But, would a deaf child have this same experience? I would like that yes. And this is why i'm creating this playground, to prove that **everyone** can, at least, play a simple song.
 
 
 # How it works?
+That are different ways to interact with a hearing impaired, like vision and touch, for example. Seen that, when played, the instrument generates a different vibration according with the note. This allows the player to be capable of identify the sound that it's making. Besides that, it's possible to identify the notes by the ASL (American Signal Language), that can be seen on the screen everytime that the instrument is played.
 
-Há diferentes formas interagir com o deficiente auditivo através de seus outros sentidos, como visão e tato, por exemplo. Por isso, quando tocado, o instrumento gera uma vibração diferente de acordo com a nota que é tocada. Isso permite que o deficiente auditivo seja capaz de identificar o som que está emitindo. Além disso é possível identificar a nota a partir da ASL, que é mostrada sempre que o instrumento é tocado.
+ - Experiment:
+ Try to change the hand signal size to make it more visible.
+ */
 
+let signalSize: Int = /*#-editable-code size*/1/*#-end-editable-code*/
 
+/*:
 # Where it came from?
-
-Recentemente, já na faculdade, ingressei em uma disciplina de linguagens brasileira de sinais, o que me fez simpatizar com o público surdo e entender um pouco mais sobre sua realidade. E foi então que conheci o projeto sons do silencio, localizado na cidade de Recife, criado por um surdo que se apaixonou por saxofone e resolveu se dedicar a ensinar outros jovens a tocar.
-
-Então pensei, porquê não levar essa experiência para outras pessoas através de seus iPads?
-
- - Note:
- You still can personalize your flute and create awesome combinations!
-*/
-
-let headColor: HeadColor = /*#-editable-code color*/.normal/*#-end-editable-code*/
-let bodyColor: BodyColor = /*#-editable-code color*/.normal/*#-end-editable-code*/
-let footColor: FootColor = /*#-editable-code color*/.normal/*#-end-editable-code*/
-
-editFluteStyle(headColor: /*#-editable-code color*/headColor/*#-end-editable-code*/, bodyColor: /*#-editable-code color*/bodyColor/*#-end-editable-code*/, footColor: /*#-editable-code color*/footColor/*#-end-editable-code*/)
+Recently, when I was already in college, I've joined a Brazilian signal language (LIBRAS) class, what made me sympathize with the deaf public and understand better their needs and reality. It was then that I've met the project "Sounds of silence", "Sons do silêncio" in portuguese. It was born here, in Brazil, especifically in the city of Recife. It was created by a deaf man, that learned how to play sax using the instrument vibrations and felt in love with it, so, he devoted all his efforts to teach other paople how to do create music.
