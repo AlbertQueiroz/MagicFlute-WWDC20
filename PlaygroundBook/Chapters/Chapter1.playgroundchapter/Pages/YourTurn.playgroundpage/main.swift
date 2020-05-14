@@ -17,7 +17,7 @@ public func editFluteStyle(headColor: HeadStyle, bodyColor: BodyStyle, footColor
 /*:
 # Congratulations
 
-I'm so proud of you, you're doing a great job! I think that we can try to play a song already.
+I'm so proud of you, you're doing a great job! it seens you have learned a lot about flutes, I think that we can try to play a song already.
  
 - Note:
 Try to start slowly and after get faster to improve your song, but don't forget to keep the rhythm.
@@ -25,10 +25,10 @@ Try to start slowly and after get faster to improve your song, but don't forget 
 # Practice
 Let's try something simple, like the "Happy Birthday" song. You just have to repeat these notes in this same order:
 
-imagem notas
+notes image
  
 - Note:
- You can still personalize your flute and create awesome combinations!
+ You can still personalize your flute and play your songs with style!
 */
 
 let headColor: HeadStyle = /*#-editable-code color*/.normal/*#-end-editable-code*/
