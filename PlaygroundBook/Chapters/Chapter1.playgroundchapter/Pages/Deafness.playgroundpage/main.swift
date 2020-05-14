@@ -3,7 +3,15 @@ import BookCore
 import PlaygroundSupport
 import UIKit
 
-PlaygroundPage.current.liveView = SecondPageViewController()
+
+let actualPage = SecondPageViewController()
+PlaygroundPage.current.liveView = actualPage
+
+public func editFluteStyle(headColor: HeadStyle, bodyColor: BodyStyle, footColor: FootStyle) {
+    actualPage.fluteView.headView.image = UIImage(named: headColor.rawValue)
+    actualPage.fluteView.bodyView.image = UIImage(named: bodyColor.rawValue)
+    actualPage.fluteView.footView.image = UIImage(named: footColor.rawValue)
+}
 //#-end-hidden-code
 
 
@@ -22,16 +30,12 @@ Recentemente, já na faculdade, ingressei em uma disciplina de linguagens brasil
 
 Então pensei, porquê não levar essa experiência para outras pessoas através de seus iPads?
 
- - Experiment:
- You can change the variables values to personalize your flute and create awesome combinations!
- \
- **Try:**
- \
- .default, .blue, .pink, .green
+ - Note:
+ You still can personalize your flute and create awesome combinations!
 */
 
-let headColor: HeadColor = /*#-editable-code color*/.default/*#-end-editable-code*/
-let bodyColor: BodyColor = /*#-editable-code color*/.default/*#-end-editable-code*/
-let footColor: FootColor = /*#-editable-code color*/.default/*#-end-editable-code*/
+let headColor: HeadColor = /*#-editable-code color*/.normal/*#-end-editable-code*/
+let bodyColor: BodyColor = /*#-editable-code color*/.normal/*#-end-editable-code*/
+let footColor: FootColor = /*#-editable-code color*/.normal/*#-end-editable-code*/
 
-
+editFluteStyle(headColor: /*#-editable-code color*/headColor/*#-end-editable-code*/, bodyColor: /*#-editable-code color*/bodyColor/*#-end-editable-code*/, footColor: /*#-editable-code color*/footColor/*#-end-editable-code*/)

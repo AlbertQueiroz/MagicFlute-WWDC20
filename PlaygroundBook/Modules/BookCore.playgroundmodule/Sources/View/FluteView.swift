@@ -9,7 +9,7 @@ import UIKit
 
 public class FluteView: UIView {
     
-    public let headView: UIImageView = {
+    public var headView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "defaultHead")
         imageView.contentMode = .scaleAspectFit
@@ -18,7 +18,7 @@ public class FluteView: UIView {
         return imageView
     }()
     
-    public let footView: UIImageView = {
+    public var footView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "defaultFoot")
         imageView.contentMode = .scaleAspectFit
@@ -27,7 +27,7 @@ public class FluteView: UIView {
         return imageView
     }()
     
-    public let bodyView: UIImageView = {
+    public var bodyView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "defaultBody")
         imageView.contentMode = .scaleAspectFit
