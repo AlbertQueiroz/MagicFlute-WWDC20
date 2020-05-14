@@ -19,11 +19,9 @@ public func editFluteStyle(headColor: HeadStyle, bodyColor: BodyStyle, footColor
 
 I'm so proud of you, you're doing a great job! it seens you have learned a lot about flutes, I think that we can try to play a song already.
  
-- Note:
-Try to start slowly and after get faster to improve your song, but don't forget to keep the rhythm.
- 
-# Practice
-Let's try something simple, like the "Happy Birthday" song. You just have to repeat these notes in this same order:
+- Experiment:
+Let's try something simple, like the "Happy Birthday" song. You just have to repeat the notes in this same order.
+Start slowly and get faster to improve your song, but don't forget to keep the rhythm.
 
 notes image
  

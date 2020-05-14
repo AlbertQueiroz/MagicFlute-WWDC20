@@ -1,11 +1,3 @@
-//#-hidden-code
-import BookCore
-import PlaygroundSupport
-import UIKit
-
-//PlaygroundPage.current.liveView = FirstPageViewController()
-//#-end-hidden-code
-
 
 /*:
 # Nice to meet you
@@ -15,6 +7,6 @@ Hello, my name is Albert, and i'm the guy inside the circle up there. I'm 20 yea
 Currently, i'm a computer science stundent and, at the last 3 months, I've been a Apple Developer Academy student too, wich was my goal since i've joined the college, and it's being amazing, i'm very happy. Programming provided me all this, and I really hope that it can help you to make your dreams real too.
 
 # See ya!
-It was a amazing experience, I hope you enjoyned it. Unfortunatly I can't see you at WWDC this year, but maybe in a next one. Byee!!
+It was a amazing experience, I hope you enjoyned it. Unfortunatly I can't see you at WWDC this year, but maybe in another year. Byee!!
 */
 
