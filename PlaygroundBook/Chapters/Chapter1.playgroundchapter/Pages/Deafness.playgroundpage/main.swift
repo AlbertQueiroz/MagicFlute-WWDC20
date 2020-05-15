@@ -15,9 +15,7 @@ public func editFluteStyle(headColor: HeadStyle, bodyColor: BodyStyle, footColor
 
 //#-end-hidden-code
 
-
 /*:
- 
  # The problem
 Few people has the great oportunity to have an instrument in the childhood, but when we have, even less of us think about that children who don't even dream in play it, as the case of deaf children.
  

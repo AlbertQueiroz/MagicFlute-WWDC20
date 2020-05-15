@@ -57,6 +57,7 @@
 		AEC5B297246EBEBD00AF922A /* greenBody.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B27A246EBEBC00AF922A /* greenBody.png */; };
 		AEC5B298246EBEBD00AF922A /* do.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B27B246EBEBD00AF922A /* do.png */; };
 		AEC5B299246EBEBD00AF922A /* greenFoot.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B27C246EBEBD00AF922A /* greenFoot.png */; };
+		AEC5B2BB246EE06500AF922A /* bookIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B2BA246EE06500AF922A /* bookIcon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -189,6 +190,7 @@
 		AEC5B27A246EBEBC00AF922A /* greenBody.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenBody.png; sourceTree = "<group>"; };
 		AEC5B27B246EBEBD00AF922A /* do.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = do.png; sourceTree = "<group>"; };
 		AEC5B27C246EBEBD00AF922A /* greenFoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenFoot.png; sourceTree = "<group>"; };
+		AEC5B2BA246EE06500AF922A /* bookIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -346,6 +348,7 @@
 		5EF2F9792054B64800191409 /* PrivateResources */ = {
 			isa = PBXGroup;
 			children = (
+				AEC5B2BA246EE06500AF922A /* bookIcon.png */,
 				AEC5B26B246EBEBB00AF922A /* background.png */,
 				AEC5B26D246EBEBB00AF922A /* blueBody.png */,
 				AEC5B264246EBEBA00AF922A /* blueFoot.png */,
@@ -547,6 +550,7 @@
 				AEC5B28F246EBEBD00AF922A /* re.png in Resources */,
 				AEC5B283246EBEBD00AF922A /* do.mp3 in Resources */,
 				AEC5B28B246EBEBD00AF922A /* sol.mp3 in Resources */,
+				AEC5B2BB246EE06500AF922A /* bookIcon.png in Resources */,
 				AEC5B280246EBEBD00AF922A /* mi.mp3 in Resources */,
 				AEC5B292246EBEBD00AF922A /* defaultHead.png in Resources */,
 				AEC5B282246EBEBD00AF922A /* fa.mp3 in Resources */,
