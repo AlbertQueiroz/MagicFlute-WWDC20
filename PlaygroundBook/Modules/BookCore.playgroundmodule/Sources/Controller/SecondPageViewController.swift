@@ -6,9 +6,11 @@
 //
 
 import UIKit
+import CoreHaptics
 
 public class SecondPageViewController: FirstPageViewController {
 
+    var engine: CHHapticEngine?
     public let noteSignalView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFit
@@ -22,11 +24,13 @@ public class SecondPageViewController: FirstPageViewController {
 
         view.addSubview(noteSignalView)
         
+        startHapticEngine()
         setNoteSignalConstraints()
     }
     
     public override func noteButtonAction(sender: UIButton!) {
         super.noteButtonAction(sender: sender)
+        playHaptic(tag: sender.tag)
         showNoteView()
         switch sender.tag {
         case 0: //DO
@@ -45,6 +49,32 @@ public class SecondPageViewController: FirstPageViewController {
             noteSignalView.image = UIImage(named: "ti")
         default:
             return
+        }
+    }
+    
+    public func startHapticEngine() {
+        guard CHHapticEngine.capabilitiesForHardware().supportsHaptics else { return }
+
+        do {
+            engine = try CHHapticEngine()
+            try engine?.start()
+        } catch {
+            print("There was an error creating the engine: \(error.localizedDescription)")
+        }
+    }
+    
+    func playHaptic(tag: Int) {
+        guard CHHapticEngine.capabilitiesForHardware().supportsHaptics else { return }
+
+        let intensity = CHHapticEventParameter(parameterID: .hapticIntensity, value: Float(tag + 1)/10)
+        let sharpness = CHHapticEventParameter(parameterID: .hapticSharpness, value: Float(tag + 1)/10)
+        let event = CHHapticEvent(eventType: .hapticTransient, parameters: [intensity, sharpness], relativeTime: 0)
+        do {
+            let pattern = try CHHapticPattern(events: [event], parameters: [])
+            let player = try engine?.makePlayer(with: pattern)
+            try player?.start(atTime: 0)
+        } catch {
+            print("Failed to play pattern: \(error.localizedDescription).")
         }
     }
     

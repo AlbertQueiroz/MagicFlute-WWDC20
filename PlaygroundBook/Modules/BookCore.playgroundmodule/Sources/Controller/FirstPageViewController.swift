@@ -22,7 +22,6 @@ public class FirstPageViewController: LiveViewController {
         return imageView
     }()
     
-
     override public func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
@@ -37,7 +36,6 @@ public class FirstPageViewController: LiveViewController {
     }
     
     public func createNoteButtons() {
-        
         for i in 0..<7 {
             let button = UIButton()
             button.tag = i
@@ -52,12 +50,11 @@ public class FirstPageViewController: LiveViewController {
         buttonStackView.distribution = .fillEqually
         buttonStackView.spacing = 8.0
     }
-    
+
     @objc public func noteButtonAction(sender: UIButton!) {
         switch sender.tag {
         case 0: //DO
             playNote(note: "do")
-            
         case 1: //LA
             playNote(note: "re")
         case 2: //SOL
@@ -73,7 +70,6 @@ public class FirstPageViewController: LiveViewController {
         default:
             return
         }
-        
     }
     
     public func playNote(note: String) {

@@ -12,6 +12,7 @@ public func editFluteStyle(headColor: HeadStyle, bodyColor: BodyStyle, footColor
     actualPage.fluteView.bodyView.image = UIImage(named: bodyColor.rawValue)
     actualPage.fluteView.footView.image = UIImage(named: footColor.rawValue)
 }
+
 //#-end-hidden-code
 
 
