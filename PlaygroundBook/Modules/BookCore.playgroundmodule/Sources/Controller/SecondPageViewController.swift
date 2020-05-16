@@ -19,6 +19,8 @@ public class SecondPageViewController: FirstPageViewController {
         return imageView
     }()
     
+    public var signalSize: CGFloat = 200
+    
     override public func viewDidLoad() {
         super.viewDidLoad()
 
@@ -79,7 +81,7 @@ public class SecondPageViewController: FirstPageViewController {
     }
     
     public func showNoteView() {
-        UIViewPropertyAnimator(duration: 08, curve: .easeIn, animations: {
+        UIViewPropertyAnimator(duration: 0.2, curve: .easeIn, animations: {
             self.noteSignalView.alpha = 1
         }).startAnimation()
     }
@@ -91,7 +93,7 @@ public class SecondPageViewController: FirstPageViewController {
         noteSignalView.translatesAutoresizingMaskIntoConstraints = false
         noteSignalView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -100).isActive = true
         noteSignalView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
-        noteSignalView.heightAnchor.constraint(equalToConstant: 300).isActive = true
+        noteSignalView.heightAnchor.constraint(equalToConstant: signalSize).isActive = true
         noteSignalView.widthAnchor.constraint(equalTo: noteSignalView.heightAnchor).isActive = true
     }
 

@@ -58,6 +58,9 @@
 		AEC5B298246EBEBD00AF922A /* do.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B27B246EBEBD00AF922A /* do.png */; };
 		AEC5B299246EBEBD00AF922A /* greenFoot.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B27C246EBEBD00AF922A /* greenFoot.png */; };
 		AEC5B2BB246EE06500AF922A /* bookIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B2BA246EE06500AF922A /* bookIcon.png */; };
+		AEC5B2BD24703FD600AF922A /* fluteParts.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B2BC24703FD600AF922A /* fluteParts.png */; };
+		AEC5B2BF247044CA00AF922A /* happyBirthday.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B2BE247044CA00AF922A /* happyBirthday.png */; };
+		AEC5B2C1247046AB00AF922A /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B2C0247046AB00AF922A /* profile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -191,6 +194,9 @@
 		AEC5B27B246EBEBD00AF922A /* do.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = do.png; sourceTree = "<group>"; };
 		AEC5B27C246EBEBD00AF922A /* greenFoot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenFoot.png; sourceTree = "<group>"; };
 		AEC5B2BA246EE06500AF922A /* bookIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookIcon.png; sourceTree = "<group>"; };
+		AEC5B2BC24703FD600AF922A /* fluteParts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fluteParts.png; sourceTree = "<group>"; };
+		AEC5B2BE247044CA00AF922A /* happyBirthday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happyBirthday.png; sourceTree = "<group>"; };
+		AEC5B2C0247046AB00AF922A /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,6 +355,8 @@
 			isa = PBXGroup;
 			children = (
 				AEC5B2BA246EE06500AF922A /* bookIcon.png */,
+				AEC5B2BC24703FD600AF922A /* fluteParts.png */,
+				AEC5B2BE247044CA00AF922A /* happyBirthday.png */,
 				AEC5B26B246EBEBB00AF922A /* background.png */,
 				AEC5B26D246EBEBB00AF922A /* blueBody.png */,
 				AEC5B264246EBEBA00AF922A /* blueFoot.png */,
@@ -378,6 +386,7 @@
 				AEC5B276246EBEBC00AF922A /* sol.png */,
 				AEC5B273246EBEBC00AF922A /* ti.mp3 */,
 				AEC5B278246EBEBC00AF922A /* ti.png */,
+				AEC5B2C0247046AB00AF922A /* profile.png */,
 				5EF2F97E2054B6E400191409 /* ManifestPlist.strings */,
 				5E086DCC2051DDAE004D8D25 /* LiveView.storyboard */,
 				5E551EC42371FC3F00784365 /* Assets.xcassets */,
@@ -530,6 +539,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEC5B291246EBEBD00AF922A /* fa.png in Resources */,
+				AEC5B2BD24703FD600AF922A /* fluteParts.png in Resources */,
 				AEC5B286246EBEBD00AF922A /* la.png in Resources */,
 				AEC5B28C246EBEBD00AF922A /* pinkHead.png in Resources */,
 				AEC5B288246EBEBD00AF922A /* background.png in Resources */,
@@ -549,6 +559,7 @@
 				AEC5B284246EBEBD00AF922A /* pinkFoot.png in Resources */,
 				AEC5B28F246EBEBD00AF922A /* re.png in Resources */,
 				AEC5B283246EBEBD00AF922A /* do.mp3 in Resources */,
+				AEC5B2BF247044CA00AF922A /* happyBirthday.png in Resources */,
 				AEC5B28B246EBEBD00AF922A /* sol.mp3 in Resources */,
 				AEC5B2BB246EE06500AF922A /* bookIcon.png in Resources */,
 				AEC5B280246EBEBD00AF922A /* mi.mp3 in Resources */,
@@ -558,6 +569,7 @@
 				AEC5B281246EBEBD00AF922A /* blueFoot.png in Resources */,
 				AEC5B295246EBEBD00AF922A /* ti.png in Resources */,
 				AEC5B285246EBEBD00AF922A /* re.mp3 in Resources */,
+				AEC5B2C1247046AB00AF922A /* profile.png in Resources */,
 				AEC5B287246EBEBD00AF922A /* blueHead.png in Resources */,
 				AEC5B28D246EBEBD00AF922A /* defaultBody.png in Resources */,
 				AEC5B28A246EBEBD00AF922A /* blueBody.png in Resources */,

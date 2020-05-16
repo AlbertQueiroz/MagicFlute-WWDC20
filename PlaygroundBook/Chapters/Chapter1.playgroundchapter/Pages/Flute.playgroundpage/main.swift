@@ -12,8 +12,6 @@ public func editFluteStyle(headColor: HeadStyle, bodyColor: BodyStyle, footColor
     actualPage.fluteView.footView.image = UIImage(named: footColor.rawValue)
 }
 //#-end-hidden-code
-
-
 /*:
 # Welcome
 
@@ -23,8 +21,9 @@ public func editFluteStyle(headColor: HeadStyle, bodyColor: BodyStyle, footColor
  I still remember when I won my first flute. It was magical, I could create songs all day and make my mom ungry because of the noise. But don't worry, they love when you learn how to play a song.
 
  # Flute Parts
-
- parts image
+These are some of the basic flute parts
+ \
+![Flute Parts](fluteParts.png)
 
  - Experiment:
  Make it more you! You can change the variables values to personalize your flute and create awesome combinations!
