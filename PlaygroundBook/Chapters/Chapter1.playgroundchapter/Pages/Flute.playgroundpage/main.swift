@@ -10,6 +10,7 @@ public func editFluteStyle(headColor: HeadStyle, bodyColor: BodyStyle, footColor
     actualPage.fluteView.headView.image = UIImage(named: headColor.rawValue)
     actualPage.fluteView.bodyView.image = UIImage(named: bodyColor.rawValue)
     actualPage.fluteView.footView.image = UIImage(named: footColor.rawValue)
+    PlaygroundPage.current.assessmentStatus = .pass(message: "Nice! It looks great. [Next Page](@next)")
 }
 //#-end-hidden-code
 /*:
