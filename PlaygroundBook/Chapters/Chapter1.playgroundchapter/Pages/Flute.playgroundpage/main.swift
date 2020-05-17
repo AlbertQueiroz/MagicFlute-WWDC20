@@ -38,9 +38,11 @@ let headColor: HeadStyle = /*#-editable-code color*/.normal/*#-end-editable-code
 let bodyColor: BodyStyle = /*#-editable-code color*/.normal/*#-end-editable-code*/
 let footColor: FootStyle = /*#-editable-code color*/.normal/*#-end-editable-code*/
 
-editFluteStyle(headColor: /*#-editable-code color*/headColor/*#-end-editable-code*/, bodyColor: /*#-editable-code color*/bodyColor/*#-end-editable-code*/, footColor: /*#-editable-code color*/footColor/*#-end-editable-code*/)
+editFluteStyle(headColor: headColor, bodyColor: bodyColor, footColor: footColor)
 
 /*:
  ## Try it
  Touch the flute keys to make a beautiful song
+ \
+ Or go to the [Next Page](@next)
  */

@@ -26,7 +26,6 @@
 		AE5073DD246CB24300846C5C /* FluteStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5073DC246CB24300846C5C /* FluteStyle.swift */; };
 		AE5073DF246CDD2400846C5C /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5073DE246CDD2400846C5C /* SecondPageViewController.swift */; };
 		AE7E2D29246C2E89006E79A2 /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E2D28246C2E89006E79A2 /* FirstPageViewController.swift */; };
-		AE7E2D2C246C3B5A006E79A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E2D2B246C3B5A006E79A2 /* Constants.swift */; };
 		AE7E2D2E246C42DD006E79A2 /* CurtainsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7E2D2D246C42DD006E79A2 /* CurtainsView.swift */; };
 		AEC5B27D246EBEBD00AF922A /* curtainLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B260246EBEBA00AF922A /* curtainLeft.png */; };
 		AEC5B27E246EBEBD00AF922A /* la.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B261246EBEBA00AF922A /* la.mp3 */; };
@@ -61,6 +60,7 @@
 		AEC5B2BD24703FD600AF922A /* fluteParts.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B2BC24703FD600AF922A /* fluteParts.png */; };
 		AEC5B2BF247044CA00AF922A /* happyBirthday.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B2BE247044CA00AF922A /* happyBirthday.png */; };
 		AEC5B2C1247046AB00AF922A /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = AEC5B2C0247046AB00AF922A /* profile.png */; };
+		AEC5B2C52471A71600AF922A /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC5B2C42471A71600AF922A /* Size.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -162,7 +162,6 @@
 		AE5073DC246CB24300846C5C /* FluteStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluteStyle.swift; sourceTree = "<group>"; };
 		AE5073DE246CDD2400846C5C /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
 		AE7E2D28246C2E89006E79A2 /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
-		AE7E2D2B246C3B5A006E79A2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AE7E2D2D246C42DD006E79A2 /* CurtainsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurtainsView.swift; sourceTree = "<group>"; };
 		AEC5B260246EBEBA00AF922A /* curtainLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = curtainLeft.png; sourceTree = "<group>"; };
 		AEC5B261246EBEBA00AF922A /* la.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = la.mp3; sourceTree = "<group>"; };
@@ -197,6 +196,7 @@
 		AEC5B2BC24703FD600AF922A /* fluteParts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fluteParts.png; sourceTree = "<group>"; };
 		AEC5B2BE247044CA00AF922A /* happyBirthday.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happyBirthday.png; sourceTree = "<group>"; };
 		AEC5B2C0247046AB00AF922A /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		AEC5B2C42471A71600AF922A /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -426,8 +426,8 @@
 		AE7E2D2A246C3B48006E79A2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				AE7E2D2B246C3B5A006E79A2 /* Constants.swift */,
 				AE5073DC246CB24300846C5C /* FluteStyle.swift */,
+				AEC5B2C42471A71600AF922A /* Size.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -636,7 +636,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE7E2D2C246C3B5A006E79A2 /* Constants.swift in Sources */,
+				AEC5B2C52471A71600AF922A /* Size.swift in Sources */,
 				AE5073DF246CDD2400846C5C /* SecondPageViewController.swift in Sources */,
 				AE7E2D2E246C42DD006E79A2 /* CurtainsView.swift in Sources */,
 				AE7E2D29246C2E89006E79A2 /* FirstPageViewController.swift in Sources */,

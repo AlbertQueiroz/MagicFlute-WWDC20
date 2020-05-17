@@ -3,16 +3,15 @@ import BookCore
 import PlaygroundSupport
 import UIKit
 
-public enum Size: CGFloat {
-    case small = 200
-    case medium = 300
-    case large = 400
-}
-
 let actualPage = SecondPageViewController()
 
 public func changeSignalSize(size: Size) {
     actualPage.signalSize = size.rawValue
+    if size != .small {
+        PlaygroundPage.current.assessmentStatus = .pass(message: "Well done! It looks bigger now. [Next Page](@next)")
+    } else {
+        PlaygroundPage.current.assessmentStatus = .pass(message: "Good job! The size still the same, but it's good. [Next Page](@next)")
+    }
 }
 //#-end-hidden-code
 /*:

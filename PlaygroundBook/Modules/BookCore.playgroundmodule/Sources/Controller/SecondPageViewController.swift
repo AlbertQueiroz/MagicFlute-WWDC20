@@ -19,7 +19,7 @@ public class SecondPageViewController: FirstPageViewController {
         return imageView
     }()
     
-    public var signalSize: CGFloat = 200
+    public var signalSize: CGFloat = 150
     
     override public func viewDidLoad() {
         super.viewDidLoad()
